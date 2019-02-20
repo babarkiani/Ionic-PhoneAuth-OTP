@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "724060710625",
+    "firebase_url": "https://lesco-final.firebaseio.com",
+    "project_id": "lesco-final",
+    "storage_bucket": "lesco-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724060710625:android:37cb7d87bb4065e7",
+        "android_client_info": {
+          "package_name": "com.atrixdigital.lesco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724060710625-h7ob0gala595quv18dvkcbf1tootm397.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atrixdigital.lesco",
+            "certificate_hash": "046f2d2f9ca184adbf6850b8ad84bfbb550f988b"
+          }
+        },
+        {
+          "client_id": "724060710625-6e7f5d0sp3j3ffqrogt9jt6cnn7nm2jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2J4pdOO-_Qcn5fSF7ZhIumklPlH7PEoY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724060710625-6e7f5d0sp3j3ffqrogt9jt6cnn7nm2jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

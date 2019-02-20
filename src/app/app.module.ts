@@ -10,18 +10,29 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { LoginPage } from '../pages/login/login';
 
+import { AngularFireModule } from "@angular/fire";
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { FirebaseProvider } from '../mock.providers';
+const firebase = {
+
+}
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(firebase),
+    AngularFireAuthModule
+
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -29,12 +40,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
+    FirebaseProvider
   ]
 })
-export class AppModule {}
+export class AppModule { }

@@ -1,5 +1,7 @@
 {
   "name": "ionic-otp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
